@@ -1,4 +1,3 @@
-```
 #include<stdio.h>
 #include<string.h>
 int changeToTen (char num_zt[100]);//0-10中文转化为数字 
@@ -129,4 +128,3 @@ char printUnitsDigits (int units_D)//处理输出两位数中的个位数
 	num=num/cha_num;
 	return num;
  }
-```

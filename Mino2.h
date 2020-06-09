@@ -2,7 +2,7 @@
 #include"Block.h"
 #include"Mino1.h"
 
-class Mino2 :public Mino1 {
+class Mino2 :public Block {
 private:
 	int id2; //玩家二图形ID
 	int next_id2; //玩家二下一块图形ID

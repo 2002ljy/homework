@@ -48,10 +48,11 @@ void Mino1::Down()//下落函数
 				if (Judge(point[0], point[1], id1))//玩家一失败 
 				{
 					system("cls");
-					SetPos(15, 10);
+					SetPos(15+31, 10);
 					cout << "游戏结束！" << endl;
-					SetPos(15, 12);
+					SetPos(15+31, 12);
 					cout << "玩家一失败" << endl;
+					SetPos(15 + 31, 14);
 					system("pause");
 					exit(1);
 				}
